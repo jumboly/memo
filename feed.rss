@@ -6,8 +6,8 @@
 		<description>日々のメモ</description>
 		<copyright>Copyright © Masanori Kitani &lt;jumboly@gmail.com&gt;</copyright>
 		<managingEditor>Masanori Kitani</managingEditor>
-		<pubDate>Sat, 19 Feb 2022 07:39:28 GMT</pubDate>
-		<lastBuildDate>Sat, 19 Feb 2022 07:39:28 GMT</lastBuildDate>
+		<pubDate>Sat, 19 Feb 2022 07:43:43 GMT</pubDate>
+		<lastBuildDate>Sat, 19 Feb 2022 07:43:43 GMT</lastBuildDate>
 		<item>
 			<title>2022-02-19</title>
 			<link>/memo/2022/02/19</link>
@@ -15,7 +15,7 @@
 			<author>Masanori Kitani</author>
 			<enclosure url="/memo/img/logo.png" length="0" type="image" />
 			<guid isPermaLink="false">/memo/2022/02/19</guid>
-			<pubDate>Sat, 19 Feb 2022 07:38:49 GMT</pubDate>
+			<pubDate>Sat, 19 Feb 2022 00:00:00 GMT</pubDate>
 			<content:encoded>&lt;h2 id="statiq"&gt;Statiq のセットアップ&lt;/h2&gt;
 &lt;p&gt;.Net製の静的サイトジェネレータ&lt;a href="https://www.statiq.dev/"&gt;Statiq&lt;/a&gt; で GitHub Pages を公開する。&lt;/p&gt;
 &lt;p&gt;github.dev で直接編集できるので便利。&lt;/p&gt;
