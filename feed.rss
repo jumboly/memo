@@ -6,8 +6,47 @@
 		<description>日々のメモ</description>
 		<copyright>Copyright © Masanori Kitani &lt;jumboly@gmail.com&gt;</copyright>
 		<managingEditor>Masanori Kitani</managingEditor>
-		<pubDate>Sat, 19 Feb 2022 07:18:39 GMT</pubDate>
-		<lastBuildDate>Sat, 19 Feb 2022 07:18:39 GMT</lastBuildDate>
+		<pubDate>Sat, 19 Feb 2022 07:39:28 GMT</pubDate>
+		<lastBuildDate>Sat, 19 Feb 2022 07:39:28 GMT</lastBuildDate>
+		<item>
+			<title>2022-02-19</title>
+			<link>/memo/2022/02/19</link>
+			<description>日々のメモ</description>
+			<author>Masanori Kitani</author>
+			<enclosure url="/memo/img/logo.png" length="0" type="image" />
+			<guid isPermaLink="false">/memo/2022/02/19</guid>
+			<pubDate>Sat, 19 Feb 2022 07:38:49 GMT</pubDate>
+			<content:encoded>&lt;h2 id="statiq"&gt;Statiq のセットアップ&lt;/h2&gt;
+&lt;p&gt;.Net製の静的サイトジェネレータ&lt;a href="https://www.statiq.dev/"&gt;Statiq&lt;/a&gt; で GitHub Pages を公開する。&lt;/p&gt;
+&lt;p&gt;github.dev で直接編集できるので便利。&lt;/p&gt;
+&lt;p&gt;参考&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://neue.cc/2021/11/21.html"&gt;C#による自家製静的サイトジェネレーターに移行した話&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;動機となった記事&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://weekref.net/"&gt;WeekRef.NET&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;参考にしたサイト&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="section"&gt;作業メモ&lt;/h2&gt;
+&lt;p&gt;github actions で submodule もチェックアウトする方法。&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;uses: actions/checkout&amp;#64;v2
+with:
+    submodules: recursive
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;サイト内のリンクルートを変更するには、statiq.yml に以下を追記する。&lt;/p&gt;
+&lt;pre&gt;&lt;code class="language-statiq.yml"&gt;LinkRoot: /{配置するルートパス}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;特定のファイルをリポジトリの言語タグの対象外とするには、&lt;code&gt;.gitattributes&lt;/code&gt; に以下を追記する&lt;/p&gt;
+&lt;pre&gt;&lt;code class="language-.gitattributes"&gt;theme/input/vendor/* linguist-vendored
+&lt;/code&gt;&lt;/pre&gt;
+</content:encoded>
+			<comments xmlns="http://purl.org/rss/1.0/modules/slash/">0</comments>
+		</item>
 		<item>
 			<title>This Is An Example Post</title>
 			<link>/memo/1974/12/17</link>
