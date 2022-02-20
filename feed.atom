@@ -1,23 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-	<id>/</id>
+	<id>/memo</id>
 	<title>Jumboly's Memo</title>
 	<author>
 		<name>Masanori Kitani</name>
 	</author>
-	<link rel="self" href="/" />
+	<link rel="self" href="/memo" />
 	<rights>Copyright © Masanori Kitani &lt;jumboly@gmail.com&gt;</rights>
-	<updated>2022-02-20T02:13:14Z</updated>
-	<logo>/img/logo.png</logo>
+	<updated>2022-02-20T02:15:52Z</updated>
+	<logo>/memo/img/logo.png</logo>
 	<subtitle>日々のメモ</subtitle>
 	<entry>
-		<id>/2022/02/19</id>
+		<id>/memo/2022/02/19</id>
 		<title>2022-02-19</title>
 		<author>
 			<name>Masanori Kitani</name>
 		</author>
-		<link href="/2022/02/19" />
-		<link rel="enclosure" type="image" href="/img/logo.png" />
+		<link href="/memo/2022/02/19" />
+		<link rel="enclosure" type="image" href="/memo/img/logo.png" />
 		<updated>2022-02-19T00:00:00Z</updated>
 		<content>&lt;h2 id="statiq"&gt;Statiq のセットアップ&lt;/h2&gt;
 &lt;p&gt;.Net製の静的サイトジェネレータ&lt;a href="https://www.statiq.dev/"&gt;Statiq&lt;/a&gt; で GitHub Pages を公開する。&lt;/p&gt;
@@ -51,13 +51,13 @@ with:
 		<summary>日々のメモ</summary>
 	</entry>
 	<entry>
-		<id>/1974/12/17</id>
+		<id>/memo/1974/12/17</id>
 		<title>This Is An Example Post</title>
 		<author>
 			<name>Masanori Kitani</name>
 		</author>
-		<link href="/1974/12/17" />
-		<link rel="enclosure" type="image" href="/img/logo.png" />
+		<link href="/memo/1974/12/17" />
+		<link rel="enclosure" type="image" href="/memo/img/logo.png" />
 		<updated>1974-12-17T00:00:00Z</updated>
 		<content>&lt;p&gt;This is my example blog post content.&lt;/p&gt;
 </content>
