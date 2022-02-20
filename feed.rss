@@ -2,19 +2,19 @@
 <rss xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
 	<channel>
 		<title>Jumboly's Memo</title>
-		<link>/memo</link>
+		<link>/</link>
 		<description>日々のメモ</description>
 		<copyright>Copyright © Masanori Kitani &lt;jumboly@gmail.com&gt;</copyright>
 		<managingEditor>Masanori Kitani</managingEditor>
-		<pubDate>Sat, 19 Feb 2022 07:43:43 GMT</pubDate>
-		<lastBuildDate>Sat, 19 Feb 2022 07:43:43 GMT</lastBuildDate>
+		<pubDate>Sun, 20 Feb 2022 02:13:14 GMT</pubDate>
+		<lastBuildDate>Sun, 20 Feb 2022 02:13:14 GMT</lastBuildDate>
 		<item>
 			<title>2022-02-19</title>
-			<link>/memo/2022/02/19</link>
+			<link>/2022/02/19</link>
 			<description>日々のメモ</description>
 			<author>Masanori Kitani</author>
-			<enclosure url="/memo/img/logo.png" length="0" type="image" />
-			<guid isPermaLink="false">/memo/2022/02/19</guid>
+			<enclosure url="/img/logo.png" length="0" type="image" />
+			<guid isPermaLink="false">/2022/02/19</guid>
 			<pubDate>Sat, 19 Feb 2022 00:00:00 GMT</pubDate>
 			<content:encoded>&lt;h2 id="statiq"&gt;Statiq のセットアップ&lt;/h2&gt;
 &lt;p&gt;.Net製の静的サイトジェネレータ&lt;a href="https://www.statiq.dev/"&gt;Statiq&lt;/a&gt; で GitHub Pages を公開する。&lt;/p&gt;
@@ -49,11 +49,11 @@ with:
 		</item>
 		<item>
 			<title>This Is An Example Post</title>
-			<link>/memo/1974/12/17</link>
+			<link>/1974/12/17</link>
 			<description>日々のメモ</description>
 			<author>Masanori Kitani</author>
-			<enclosure url="/memo/img/logo.png" length="0" type="image" />
-			<guid isPermaLink="false">/memo/1974/12/17</guid>
+			<enclosure url="/img/logo.png" length="0" type="image" />
+			<guid isPermaLink="false">/1974/12/17</guid>
 			<pubDate>Tue, 17 Dec 1974 00:00:00 GMT</pubDate>
 			<content:encoded>&lt;p&gt;This is my example blog post content.&lt;/p&gt;
 </content:encoded>
